@@ -9,5 +9,5 @@ shallow = true
 path = "docker/Dockerfile"
 build_cmd = "./build.sh"
 artifacts = [
-  "dist/cargo-vet-0.10.0-x86_64-unknown-linux-musl",
+  "dist/cargo-vet-x86_64-unknown-linux-musl",
 ]
