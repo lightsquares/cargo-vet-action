@@ -2,12 +2,12 @@
 # branch build/cargo-vet-<version> with its own copy of this file and of
 # build.sh (see README).
 [source]
-head = "main"
+head = "build/cargo-vet-0.10.0"
 shallow = true
 
 [build]
 path = "docker/Dockerfile"
 build_cmd = "./build.sh"
 artifacts = [
-  "dist/cargo-vet-0.10.2-x86_64-unknown-linux-musl",
+  "dist/cargo-vet-0.10.0-x86_64-unknown-linux-musl",
 ]
